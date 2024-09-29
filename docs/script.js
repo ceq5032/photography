@@ -54,8 +54,9 @@ photos.forEach(photo => {
 
 
 
-/*Handle the Explore Gallery button click*/
-document.getElementById('exploreButton').addEventListener('click', () => {
-  window.location.href = 'gallery.html'; /*Redirect to the gallery page*/
+/*  Add event listener to the button*/
+document.getElementById('exploreButton').addEventListener('click', function() {
+  window.location.href = 'gallery.html'; /*   Redirect to the gallery page . */
 });
+
 

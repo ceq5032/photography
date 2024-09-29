@@ -103,28 +103,29 @@ button:hover {
   background-color: #888;
 }
 
-
 .gallery {
   padding: 50px 0;
 }
 
 .gallery .photo {
   margin-bottom: 30px;
-  text-align: center;
+  text-align: center; 
 }
 
 .gallery img {
-  width: 100%;
-  height: auto;
-  max-width: 600px;
+  display: block; 
+  margin: 0 auto; 
+  max-width: 600px; 
+  height: auto; 
   border: 5px solid #003366; 
 }
 
 .gallery p {
   margin-top: 10px;
   font-size: 1rem;
-  color: #ccc;
+  color: #ccc; 
 }
+
 
 
 footer {
@@ -157,6 +158,27 @@ footer p {
 .gallery-controls button:hover {
   background-color: #888; 
 }
+
+
+.video-section {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #333; 
+}
+
+.video-section h2 {
+  color: #fff; 
+  margin-bottom: 20px;
+}
+
+.video-section iframe {
+  border: 3px solid #003366; 
+  border-radius: 10px; 
+}
+
+
+
+
 
 
 
