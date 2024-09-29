@@ -1,35 +1,162 @@
 
-#navbar {
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-  background-color: #333;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
+body {
+  font-family: fantasy;
+  background-color: #222;
+  color: #fff;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+nav ul li a {
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #003366; 
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #888; 
 }
 
 
-.content {
-  padding: 16px;
+header {
+  background-image: url('images/photo.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
 }
 
-#wrapper {
-    width: 100%;
-    overflow: hidden;
+header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
 }
-#container {
-    width: 100%;
-    margin: 0 auto;
+
+header p {
+  color: #ccc;
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
- 
- p{
-     font-family:fantasy;
-     color:black;
- }
+
+
+header h1:hover {
+  transform: scale(1.1); 
+}
+
+
+.intro {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  color: #003366; 
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+
+button {
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #888;
+}
+
+
+.gallery {
+  padding: 50px 0;
+}
+
+.gallery .photo {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  border: 5px solid #003366; 
+}
+
+.gallery p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+
+footer {
+  background-color: #444;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.gallery-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gallery-controls button {
+  background-color: #003366; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 10px; 
+}
+
+.gallery-controls button:hover {
+  background-color: #888; 
+}
+
+
+

@@ -1,43 +1,46 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
     <head>
-       
-        
-        <title> Photo Essay Coming Soon </title>
-        
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-        <!--<link rel="icon" type="image/png" href="images/bloodyhand.png" />-->
-        
-        
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                    <title>Home - Photo Essay</title>
+                    <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
-        
-            <div id="container">
-        <div class="header"> <h1> <img src="images/photo.jpg" alt=" a camera" /> </h1>
-        </div>
+        <header>
+            <div class="container">
+                <h1>Photo Essay</h1>
+                <p>A Journey Through Lens</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </nav>
             </div>
+        </header>
         
+        <main>
+            <section class="intro">
+                <div class="container">
+                    <h2>Welcome to the Journey</h2>
+                    <p>Coming Soon !!</p>
+                    <button id="exploreButton">Explore Gallery</button>
+                    
+                </div>
+            </section>
+        </main>
         
-        <div id="navbar">
-            <a href="#home">Home</a>
-            <a href="#news">Photos</a>
-        </div>
-     <p> PHOTO ESSAY COMING SOON!</p>
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Chelsea Quijas Photography | All Rights Reserved</p>
+            </div>
+        </footer>
         
-        <script>
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-}
-</script>
-        
+        <script src="script.js"></script>
     </body>
 </html>
+
+
+

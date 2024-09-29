@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                    <title>Gallery - Photo Essay</title>
+                    <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>Photo Gallery</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            
+            <section class="gallery">
+                <div class="container">
+                    <div class="photo">
+                        <img src="photo1.jpg" alt="Photo 1" style="display: block;">
+                            <p><!--Caption for photo 1: A serene moment in nature.--></p>
+                    </div>
+                    
+                    <div class="photo" style="display: none;">
+                        <img src="photo2.jpg" alt="Photo 2">
+                            <p><!--Caption for photo 2: A bustling city street captured.--></p>
+                    </div>
+                    
+                    <div class="photo" style="display: none;">
+                        <img src="photo3.jpg" alt="Photo 3">
+                            <p><!--Caption for photo 3: The beauty of the ocean waves.--></p>
+                    </div>
+                    
+                    
+                    <div class="gallery-controls">
+                        <button id="prevButton">Previous</button>
+                        <button id="nextButton">Next</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Chelsea Quijas Photography | All Rights Reserved</p>
+            </div>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
+
