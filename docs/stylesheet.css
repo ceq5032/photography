@@ -188,6 +188,11 @@ footer p {
   border-radius: 10px; 
 }
 
+.video-section2 iframe {
+  border: 3px solid #444; 
+  border-radius: 10px; 
+}
+
 .photo {
   text-align: center; 
   margin: 20px 0;     
