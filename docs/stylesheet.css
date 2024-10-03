@@ -246,6 +246,21 @@ footer p {
   margin-bottom: 15px; 
 }
 
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translate(0);
+    }
+}
+
+.slideInLeft {
+    animation: slideInLeft 1s ease-in;
+}
+
+
+
 
 
 
