@@ -98,7 +98,10 @@ header h1:hover {
 .intro h2 {
     font-size: 2rem;
     color: #ccc;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    padding-bottom: 30px;
 }
+
 
 .intro p {
     font-size: 1.1rem;
@@ -106,6 +109,7 @@ header h1:hover {
     max-width: 800px;
     margin: 20px auto;
     line-height: 1.6;
+    text-align: left;
 }
 
 
@@ -200,34 +204,36 @@ footer p {
     background-color: #333;
 }
 
+
+
 .video-section h2 {
     color: #fff;
     margin-bottom: 20px;
 }
 
 .video-section iframe {
-  width: 100%;            
-  max-width: 700px;        
-  height: auto;            
-  border: 5px solid #003366; 
-  border-radius: 10px;     
-  display: block;          
-  margin: 0 auto;         
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border: 5px solid #003366;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 
 
 .video-section iframe {
-  width: 700px;   
-  height: 450px;  
+    width: 700px;
+    height: 450px;
 }
 
 .video-section2 iframe {
-  border: 5px solid #003366;  
-  border-radius: 10px;        
-  display: block;
-  margin: 0 auto;             
-  max-width: 100%;            
+    border: 5px solid #003366;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 
@@ -259,6 +265,25 @@ footer p {
 
 .slideInLeft {
     animation: slideInLeft 1s ease-in;
+}
+
+
+.separator {
+    height: 2px;
+    width: 40%;
+    margin: 50px auto;
+    background-color: lightgrey;
+    animation: grow 2s ease-in-out;
+}
+
+
+@keyframes grow {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
 }
 
 
