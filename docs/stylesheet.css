@@ -90,7 +90,7 @@ header p {
 }
 
 .intro p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: #fff;
     max-width: 800px;
     margin: 20px auto;
@@ -105,12 +105,13 @@ header p {
 
 .photo img {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 750px;
     width: 100%;
     height: auto;
     border: 5px solid #003366;
     border-radius: 8px;
     transition: transform 0.3s ease; 
+    
 }
 
 .photo img:hover {
@@ -118,6 +119,7 @@ header p {
 }
 
 .photo p {
+
     margin-top: 10px;
     font-size: 1rem;
     color: #ccc;
@@ -136,7 +138,7 @@ footer p {
 }
 
 .video-section {
-    padding: 50px 0;
+    padding: 20px 0;
     text-align: center;
     
 }
