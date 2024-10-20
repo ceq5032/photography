@@ -284,15 +284,6 @@ footer p {
 }
 
 
-.comments-container {
-  max-height: 640px;
-  overflow-y: scroll;
-}
-
-giscus-widget {
-  display: flex;
-  margin: auto;
-  max-width: 640px;
 
 
 
