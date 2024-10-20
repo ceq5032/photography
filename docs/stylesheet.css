@@ -283,7 +283,10 @@ footer p {
     }
 }
 
-
+giscus-widget {
+  display: flex;
+  margin: auto;
+  max-width: 640px;
 
 
 
