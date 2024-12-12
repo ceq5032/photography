@@ -1,3 +1,5 @@
+
+
 /*Add hover effect on the header to animate it*/
 const headerTitle = document.querySelector('header h1');
 if (headerTitle) {
